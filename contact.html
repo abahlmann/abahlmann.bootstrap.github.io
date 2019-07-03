@@ -1,55 +1,65 @@
-﻿<!--Contact Me-->
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Contact Me</title>
-    <link rel="stylesheet" type="text/css" href="reset.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400i|Lora:700i|Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
-        <section id="title">
-            <h1>Abigail Bahlmann</h1>
-        </section>
-        <nav>
-            <ul id="navMenu">
-                <li><a class="headerLink" href="contact.html">Contact</a></li>
-                <li><a class="headerLink" href="portfolio.html">Portfolio</a></li>
-                <li><a class="headerLink" href="index.html">About</a></li>
-            </ul>
-
-        </nav>
-
+        <div class="row">
+            <!--header-->
+            <div class="col-md-6">
+                <!--name-->
+                <h1 class="float-right">Abigail Bahlmann</h1>
+            </div><!--close name column-->
+            <div class="col-md-6">
+                <!--nav-->
+                <ul class="nav float-left mt-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div><!--close nav column-->
+        </div><!--close header row-->
     </header>
 
-    <section class="infoBlock">
-        <h2>Contact Me</h2>
-        <form class="contactMe">
-            <section class="infoBlockContent">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="nameInput" placeholder="Your Name.." />
-
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="emailInput" placeholder="Your Email.." />
-
-                <label for="message">Message: </label>
-                <input type="text" id="message" name="messageInput" placeholder="Enter Your Message.." style="height:200px" />
-
-                <input type="submit" value="Submit" />
-
-            </section>
-
-            <!--Cited: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
-
-        </form>
-    </section>
-
-
-
+    <div class="row">
+        <div class="container p-4 my-4">
+            <h2>Contact Me!</h2>
+            <article>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="name" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary">Submit</button>
+                </form>
+            </article>
+        </div>
+    </div>
 </body>
 </html>

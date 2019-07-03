@@ -1,65 +1,104 @@
-﻿<!--Portfolio-->
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="reset.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400i|Lora:700i|Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
-        <section id="title">
-            <h1>Abigail Bahlmann</h1>
-        </section>
-        <nav>
-            <ul id="navMenu">
-                <li><a class="headerLink" href="contact.html">Contact</a></li>
-                <li><a class="headerLink" href="portfolio.html">Portfolio</a></li>
-                <li><a class="headerLink" href="index.html">About</a></li>
-            </ul>
-
-        </nav>
-
+        <div class="row">
+            <!--header-->
+            <div class="col-md-6">
+                <!--name-->
+                <h1 class="float-right">Abigail Bahlmann</h1>
+            </div><!--close name column-->
+            <div class="col-md-6">
+                <!--nav-->
+                <ul class="nav float-left mt-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div><!--close nav column-->
+        </div><!--close header row-->
     </header>
 
-    <section class="infoBlock">
-        <h2>Portfolio</h2>
-        <section class="infoBlockContent" id="portfolioBlockContent">
-            <div class="portfolioContent">
-
-                <img class="porfolioImage" src="https://via.placeholder.com/250" />
-                <div class="portfolioTxt">
-                    <p>sample text</p>
-                </div>
-            </div>
-            <div class="portfolioContent">
-
-                <img class="porfolioImage" src="https://via.placeholder.com/250" />
-                <div class="portfolioTxt">
-                    <p>sample text</p>
-                </div>
-            </div>
-            <div class="portfolioContent">
-
-                <img class="porfolioImage" src="https://via.placeholder.com/250" />
-                <div class="portfolioTxt">
-                    <p>sample text</p>
-                </div>
-            </div>
-            <div class="portfolioContent">
-
-                <img class="porfolioImage" src="https://via.placeholder.com/250" />
-                <div class="portfolioTxt">
-                    <p>sample text</p>
-                </div>
-            </div>
-
-        </section>
-    </section>
+    <div class="row">
+        <div class="container my-4 p-4">
+                <h2 class="p-2">Portfolio!</h2>
+        <div class="row">
+            <div class="col-md-6 p-0 m-0">
+                <div class="card p-0 m-0 float-right">
+                <img class="card-img m-3" src="https://via.placeholder.com/250" />
+                <div class="card-img-overlay">
+                    <p class="card-text">sample text</p>
+                </div> <!--portfolio text-->
+            </div><!--card-->
+            </div> <!--column1-1-->
+            <div class="col-md-6 p-0 m-0">
+                    <div class="card p-0 m-0 float-left">
+                    <img class="card-img m-3" src="https://via.placeholder.com/250" />
+                    <div class="card-img-overlay">
+                        <p class="card-text">sample text</p>
+                    </div> <!--portfolio text-->
+                </div><!--card-->
+                </div> <!--column1-2-->
+        </div> <!--first portfolio row-->
+        
+        <div class="row">
+                <div class="col-md-6 p-0 m-0">
+                        <div class="card p-0 m-0 float-right">
+                        <img class="card-img m-3" src="https://via.placeholder.com/250" />
+                        <div class="card-img-overlay">
+                            <p class="card-text">sample text</p>
+                        </div> <!--portfolio text-->
+                    </div><!--card-->
+                    </div> <!--column2-1-->
+                    <div class="col-md-6 p-0 m-0">
+                            <div class="card p-0 m-0 float-left">
+                            <img class="card-img m-3" src="https://via.placeholder.com/250" />
+                            <div class="card-img-overlay">
+                                <p class="card-text">sample text</p>
+                            </div> <!--portfolio text-->
+                        </div><!--card-->
+                        </div> <!--column2-2-->
+        </div> <!--second portfolio row-->
+        
+        <div class="row">     
+                <div class="col-md-6 p-0 m-0">
+                        <div class="card p-0 m-0 float-right">
+                        <img class="card-img m-3" src="https://via.placeholder.com/250" />
+                        <div class="card-img-overlay">
+                            <p class="card-text">sample text</p>
+                        </div> <!--portfolio text-->
+                    </div><!--card-->
+                    </div> <!--column3-1-->
+                    <div class="col-md-6 p-0 m-0">
+                            <div class="card p-0 m-0 float-left">
+                            <img class="card-img m-3" src="https://via.placeholder.com/250" />
+                            <div class="card-img-overlay">
+                                <p class="card-text">sample text</p>
+                            </div> <!--portfolio text-->
+                        </div><!--card-->
+                        </div> <!--column3-2-->
+        </div> <!--third portfolio row-->
+    </div><!--conainer-->
+    </div> <!--main portfolio row-->
 </body>
 </html>
