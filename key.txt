@@ -1,0 +1,11 @@
+#title = name box
+#navMenu = nav menu
+#BioImage = bio image
+.BioTxt = bio text
+.infoBlock = information block
+.infoBlockContent
+.portfolioImage = image for portfolio
+.portfolioTxt = portfolio text
+.portfolioContent
+.listIndent = list items that require padding
+#BioLine1 = 1st line (next to image)

@@ -1,0 +1,166 @@
+body {
+    font-size: 1em;
+    line-height: 150%;
+    color: #290939;
+    background-image: url(papyrus.png);
+    font-family: 'Lobster', cursive;
+}
+
+header {
+    padding: 0;
+    display: block;
+    margin-bottom: 10%;
+    margin-top:0;
+    position: fixed;
+    background-color: #EEc9FF;
+    width: 100%;
+    color: #EEc9FF;
+    border-bottom: 1px solid #EEc9FF;
+    z-index:1;
+}
+#title {
+    display: inline-block;
+    background: #9362AA;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #EEc9FF;
+}
+
+#navMenu {
+    display: inline-block;
+    background-color: #9362AA;
+    font-size: 1em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 25%;
+    float: right;
+    text-align: center;
+    margin-right: 5%;
+}
+li{
+    display:inline-block;
+    float:right;
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.infoBlock {
+    display:inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 5%;
+    background-color: #EEc9FF;
+    border: 2px solid #EEc9FF;
+    border-radius:4px;
+    margin-top:15%;
+    z-index:-1;
+}
+
+#BioImage{
+    display:inline;
+    width:25%;
+    float:left;
+    padding-bottom:5%;
+}
+
+.BioTxt{
+    display:inline;
+    float:left;
+    padding-bottom:5%;
+    width:100%;
+    text-align:justify;
+}
+#BioLine1{
+    width:70%;
+    padding-left:5%;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    display: block;
+    width: 90%;
+    padding: 5%;
+    background: #9362AA;
+    text-align: center;
+    color: #EEc9FF;
+}
+
+.infoBlockContent{
+    padding:5%;
+}
+
+.headerLink {
+    color: #EEc9FF;
+}
+
+input[type=text], select, textarea {
+    display: block;
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #9362AA;
+    border-radius:4px;
+    box-sizing: border-box;
+    margin: 1%;
+    color: #9362AA;
+    background:white;
+    resize:vertical;
+}
+
+    input[type=submit] {
+        color: #9362AA;
+        border: 1px solid #9362AA;
+        border-radius: 4px;
+        width: 200px;
+        float: right;
+        margin: 16px;
+        padding: 1%;
+    }
+
+    input[type=submit]:hover {
+        cursor: pointer;
+        background-color: #EEc9FF;
+    }
+
+article {
+    font-family: 'Playfair Display', serif;
+    font-size:.9em;
+}
+#portfolioBlockContent{
+    display:inline;
+    margin:auto;
+    width:100%;
+
+}
+.portfolioContent{
+    display:inline-block;
+    float:left;
+    margin:1%;
+    margin-left:0;
+    padding:5%;
+    position:relative;
+    width:30%;
+}
+.portfolioImage{
+    position:relative;
+}
+
+.portfolioTxt{
+    width:250px;
+    position:absolute;
+    background-color:#9362AA;
+    color:#EEc9FF;
+    text-align:center;
+    padding-top:1%;
+    padding-bottom:1%;
+    bottom:30%;
+}
+
