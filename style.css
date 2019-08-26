@@ -1,147 +1,137 @@
-h1, h2, a {
-    font-family: 'Lobster', cursive;
+h1, h2, h4{
+    font-family: 'Comfortaa', cursive;
 }
 
-article {
-    font-family: 'Lora', serif;
-    color: #0310EA;
-    margin: 5px;
+p, h3{
+    font-family: 'EB Garamond', serif;
 }
 
-.nav, a {
-    color: #0310EA;
-    border: solid 1px #0310EA;
+/* main article heading */
+h1{
+    margin-top:1em;
+    font-size: 2.5em;
+    color:#f40c00;
 }
 
-.container {
-    border: solid 5px #fb33db;
-    border-radius: 4px;
+/* post article heading */
+h2{
+    font-size:1.5em;
+    color:#ff7b74;
 }
 
-h2 {
-    color: #0310EA;
-    text-align: center;
-    border-bottom: 2px solid #0310EA;
+/* sub main article heading */
+h3{
+    font-size:1em;
+    color:#ff7b74;
+    font-style: italic;
 }
 
-a:hover {
-    color: #fb33db;
+/* example problem heading */
+h4{
+    font-size:1em;
+    color: #f40c00;
+    font-style:bold;
+    border-radius: 6.5px;
+    padding-top:1em;
+    padding-bottom:1.5em;
+    line-height: 1.5em;
+
 }
 
-.active {
-    color: #fb33db;
+p{
+    color: #41100e;
+    padding:1em 0.5em;
+    font-size:1.5em;
+    line-height: 1.5em;
+    text-align: justify;
 }
 
-img {
-    border: solid 5px #0310EA;
-    border-radius: 4px;
-    margin: 15px;
-}
-h1 {
-    color: #fb33db;
-}
-header {
-    padding: 5px;
-    border-bottom: solid 5px #fb33db;
-}
-
-body{
-    background-image:url(assets/papyrus.png);
-    
-}
-
-.btn-outline-primary {
-    border-color: #fb33db;
-    color:#fb33db;
-    width:100%;
-}
-
-    .btn-outline-primary:hover, .btn-outline-primary:active{
-    background-color:#0310EA;
-    border-color:#0310EA;
-}
-
-.card-img-overlay{
-
-    background:white;
-    width:250px;
-    height:10px;
-    top:175px;
-    margin:0;
-    left:16px;
-    border:solid 2px #0310EA;
-    border-radius:3px;
+li{
+    margin:.5em;
 }
 
 .card{
-    padding:0;    
-    background:transparent;
-    border:none;
+    max-width: 30%;
+    margin:10%;
 }
 
-.card-img{
-    width:250px;
-    padding:0;
-    margin:0;
-    border:solid 1px #0310EA;
+.card-img-overlay{
+    background-color:#ff7b74;
+    max-height:20
+}
+.step{
+    max-width:40%;
+}
+.nav{
+    margin-top:4em;
 }
 
-.card-text{
-    color: #0310EA;
-    position:absolute;
-    font-family: 'Lora', serif;
+a{
+    color:#ff7b74;
+    border-bottom:dotted 1.5px #ff7b74;
+}
+
+a:hover{
+    color:#f40c00;
+    text-emphasis: bold;
+}
+
+#main{
+    padding:1em;
+    margin: 1em 1.5em 0.5em 2.5em;
+}
+
+#page-title{
+    margin: 1em 1.5em 1em .5em;
+}
+
+.active{
+    color:#f40c00;
+    border-bottom:none;
+    cursor: pointer;
+}
+.container{
+    padding: 1.5em 0.5em 1em 1em;
+    margin: 1em 1em 0.5em 1.5em;
+    border-top: 4px dotted #ff7b74;
+    border-bottom: 4px dotted #ff7b74;
+}
+
+.flex-box{
+    display:inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step-txt{
+    width:90%;
+    color: #ff7b74;
+    float:left;
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Comfortaa', cursive;
+}
+
+.step-figure{
+    width:100%;
+}
+
+.example{
+    border: dotted 0.5px #ff7b74;
+    border-radius:4px;
+    display:inline-block;
+    padding:1.5em 2.5em;
+    margin: 2.5em 4em 0.5em 2.5em;
+}
+
+.example-head{
     text-align:center;
-    bottom: 9px;
-    width:80%;
 }
 
-
-@media screen and (max-width:780px){
-    .float-right,float.left{
-        float:none;
-        margin:0;
-        padding:0;
-    }
-    h1, row, .container, .col-md-6{
-        float:right;
-    }
-    .nav-item{
-        float:right;
-    }
-    .container{
-        border:solid #0310EA;
-    }
-    .card{
-        width: 100%;
-        padding-left:30%;
-        float:right;
-    }
-    .card-img{
-        float:right;
-    }
-}
-
-@media screen and (max-width:600px){
-    .float-right,float.left{
-        float:none;
-    }
-    h1, row, .container{
-        float:left;
-    }
-    .nav-item{
-        float:right;
-    }
-    .container{
-        background-color:#fb33db;
-        border:solid #0310EA;
-    }
-    .card{
-        background-color:#fb33db;
-        width: 100%;
-        padding-left:150px;
-        float:right;
-    }
-    .card-img{
-        float:right;
-    }
+.step{
+    margin:0.5em;
+    padding:1em;
+    border: dotted 0.5px #f40c00;
+    border-radius:6.5px;
+    min-width:45%;
 }
